@@ -1,18 +1,17 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import {Roboto_Slab } from "next/font/google";
 import "./globals.css";
-import Heder from "@/layout/Heder";
-import Footer from "@/layout/Footer";
+import Heder from "../layout/Heder";
+import Footer from "../layout/Footer";
 
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const Robotoslab = Roboto_Slab({
   subsets: ["latin"],
-});
+  weight: ["700", "300", "400", "500",],
+  variable: "--font-roboto-slab",
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+})
+
+
 
 export const metadata = {
   title: "sohel",
@@ -22,12 +21,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-full flex flex-col">
-
+      <body className={`min-h-full flex flex-col ${Robotoslab.variable}`}>
         <Heder />
         {children}
         <Footer />
       </body>
-    </html>
+    </html >
   );
 }
