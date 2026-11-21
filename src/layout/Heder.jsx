@@ -13,10 +13,10 @@ const Heder = () => {
                         <h3>logo</h3>
                     </div>
                     <div className="">
-                        <ul className='flex '>
+                        <ul className='flex gap-x-5'>
                             <li><Link href={"/"}>Home</Link></li>
-                            <li><Link href={"/"}>Jobs</Link></li>
-                            <li><Link href={"/"}>Talents</Link></li>
+                            <li><Link href={"/jobs"}>Jobs</Link></li>
+                            <li><Link href={"/talents"}>Talents</Link></li>
                             <li><Link href={"/"}>Subscriptions</Link></li>
                             <li><Link href={"/"}>Pages</Link></li>
                             <li><Link href={"/"}>Contact</Link></li>
