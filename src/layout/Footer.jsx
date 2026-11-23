@@ -1,9 +1,12 @@
+import Container from '@/components/Container'
 import React from 'react'
 
 const Footer = () => {
   return (
     <div>
-      <h3 className='font-slab '>Footer</h3>
+      <Container>
+        <h3 className=''>Footer</h3>
+      </Container>
     </div>
   )
 }

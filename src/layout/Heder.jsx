@@ -15,18 +15,18 @@ const Heder = () => {
                         </div>
                         <div className="">
                             <ul className='flex gap-x-5'>
-                                <li><Link href={"/"}>Home</Link></li>
-                                <li><Link href={"/jobs"}>Jobs</Link></li>
-                                <li><Link href={"/talents"}>Talents</Link></li>
-                                <li><Link href={"/"}>Subscriptions</Link></li>
-                                <li><Link href={"/"}>Pages</Link></li>
-                                <li><Link href={"/"}>Contact</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/"}>Home</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/jobs"}>Jobs</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/talents"}>Talents</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/"}>Subscriptions</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/"}>Pages</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/"}>Contact</Link></li>
                             </ul>
                         </div>
                         <div className="">
                             <Flex className={"gap-x-3"}>
-                                <button className='px-4.5 py-2.5 border rounded-3xl font-slab'>Community</button>
-                                <button className='px-4.5 py-2.5 border rounded-3xl bg-primary '>Sign Up</button>
+                                <button className='px-4.5 py-2.5 border rounded-3xl hover:bg-primary hover:text-white'>Community</button>
+                                <button className='px-4.5 py-2.5 border rounded-3xl hover:bg-primary hover:text-white '>Sign Up</button>
                             </Flex>
                         </div>
                     </Flex>
