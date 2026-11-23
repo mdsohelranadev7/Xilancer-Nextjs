@@ -7,7 +7,7 @@ import React from 'react'
 const Heder = () => {
     return (
         <>
-            <div className="border-b border-[#ECEDEF] fixed  top-0 left-0  flex w-full bg-linear-to-r from-green-50 to-yellow-50">
+            <div className="border-b border-[#ECEDEF] fixed  top-0 left-0 z-50 flex w-full bg-linear-to-r from-green-50 to-yellow-50">
                 <Container>
                     <Flex className={"justify-between py-4 "}>
                         <div className="">
