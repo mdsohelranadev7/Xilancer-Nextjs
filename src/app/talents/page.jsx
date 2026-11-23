@@ -2,7 +2,12 @@ import Container from '@/components/Container'
 import Servicecart from '@/components/Servicecart'
 import Link from 'next/link'
 import React from 'react'
-import { TfiArrowTopRight } from 'react-icons/tfi'
+import mobileuiux from "/public/mobileulux.png"
+import lamin from "/public/lamin.png"
+import uidesign from "/public/uidesign.png"
+import business from "/public/business.png"
+import bannertemplate from "/public/bannertemplate.png"
+import greengraden from "/public/greengraden.png"
 
 const page = () => {
   return (
@@ -28,10 +33,72 @@ const page = () => {
                 </Link>
               </div>
             </div>
+
+
+            <div className="grid grid-cols-3 gap-y-7.5">
+
+              <Servicecart
+                mobile={mobileuiux}
+                projectname={"Design & Creative"}
+                title={"I will do professional figma design for website  UI UX and mobile app"}
+                rating={"4.2 ( 3 review )"}
+                lamin={lamin}
+                clientname={"Rebert Bross"}
+                price={"$20"}
+              />
+              <Servicecart
+                mobile={uidesign}
+                projectname={"Design & Creative"}
+                title={"I will do professional figma design for website  UI UX and mobile app"}
+                rating={"4.2 ( 3 review )"}
+                lamin={lamin}
+                clientname={"Rebert Bross"}
+                price={"$20"}
+              />
+              <Servicecart
+                mobile={business}
+                projectname={"Design & Creative"}
+                title={"I will do professional figma design for website  UI UX and mobile app"}
+                rating={"4.2 ( 3 review )"}
+                lamin={lamin}
+                clientname={"Rebert Bross"}
+                price={"$20"}
+              />
+              <Servicecart
+                mobile={bannertemplate}
+                projectname={"Design & Creative"}
+                title={"I will do professional figma design for website  UI UX and mobile app"}
+                rating={"4.2 ( 3 review )"}
+                lamin={lamin}
+                clientname={"Rebert Bross"}
+                price={"$20"}
+              />
+              <Servicecart
+                mobile={greengraden}
+                projectname={"Design & Creative"}
+                title={"I will do professional figma design for website  UI UX and mobile app"}
+                rating={"4.2 ( 3 review )"}
+                lamin={lamin}
+                clientname={"Rebert Bross"}
+                price={"$20"}
+              />
+              <Servicecart
+                mobile={mobileuiux}
+                projectname={"Design & Creative"}
+                title={"I will do professional figma design for website  UI UX and mobile app"}
+                rating={"4.2 ( 3 review )"}
+                lamin={lamin}
+                clientname={"Rebert Bross"}
+                price={"$20"}
+              />
+
+            </div>
           </Container>
-          <Servicecart />
+
+
+
         </div>
-      </section>
+      </section >
     </>
   )
 }

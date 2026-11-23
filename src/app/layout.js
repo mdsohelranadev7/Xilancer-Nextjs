@@ -1,4 +1,4 @@
-import {Roboto_Slab } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import Heder from "../layout/Heder";
 import Footer from "../layout/Footer";
@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`min-h-full flex flex-col ${Robotoslab.variable}`}>
+      <body className={"min-h-full flex flex-col"}>
         <Heder />
         {children}
         <Footer />
