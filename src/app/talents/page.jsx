@@ -36,62 +36,73 @@ const page = () => {
 
 
             <div className="grid grid-cols-3 gap-y-7.5">
+              <Link href={"/"}>
+                <Servicecart
+                  mobile={mobileuiux}
+                  projectname={"Design & Creative"}
+                  title={"I will do professional figma design for website  UI UX and mobile app"}
+                  rating={"4.2 ( 3 review )"}
+                  lamin={lamin}
+                  clientname={"Rebert Bross"}
+                  price={"$20"}
+                />
+              </Link>
+              <Link href={""}>
+                <Servicecart
+                  mobile={uidesign}
+                  projectname={"Design & Creative"}
+                  title={"I will do professional figma design for website  UI UX and mobile app"}
+                  rating={"4.2 ( 3 review )"}
+                  lamin={lamin}
+                  clientname={"Rebert Bross"}
+                  price={"$20"}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Servicecart
+                  mobile={business}
+                  projectname={"Design & Creative"}
+                  title={"I will do professional figma design for website  UI UX and mobile app"}
+                  rating={"4.2 ( 3 review )"}
+                  lamin={lamin}
+                  clientname={"Rebert Bross"}
+                  price={"$40"}
+                />
+              </Link>
+              <Link href={""}>
+                <Servicecart
+                  mobile={bannertemplate}
+                  projectname={"Design & Creative"}
+                  title={"I will do professional figma design for website  UI UX and mobile app"}
+                  rating={"4.2 ( 3 review )"}
+                  lamin={lamin}
+                  clientname={"Rebert Bross"}
+                  price={"$15"}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Servicecart
+                  mobile={greengraden}
+                  projectname={"Design & Creative"}
+                  title={"I will do professional figma design for website  UI UX and mobile app"}
+                  rating={"4.2 ( 3 review )"}
+                  lamin={lamin}
+                  clientname={"Rebert Bross"}
+                  price={"$29"}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Servicecart
+                  mobile={mobileuiux}
+                  projectname={"Design & Creative"}
+                  title={"I will do professional figma design for website  UI UX and mobile app"}
+                  rating={"4.2 ( 3 review )"}
+                  lamin={lamin}
+                  clientname={"Rebert Bross"}
+                  price={"$20"}
+                />
 
-              <Servicecart
-                mobile={mobileuiux}
-                projectname={"Design & Creative"}
-                title={"I will do professional figma design for website  UI UX and mobile app"}
-                rating={"4.2 ( 3 review )"}
-                lamin={lamin}
-                clientname={"Rebert Bross"}
-                price={"$20"}
-              />
-              <Servicecart
-                mobile={uidesign}
-                projectname={"Design & Creative"}
-                title={"I will do professional figma design for website  UI UX and mobile app"}
-                rating={"4.2 ( 3 review )"}
-                lamin={lamin}
-                clientname={"Rebert Bross"}
-                price={"$20"}
-              />
-              <Servicecart
-                mobile={business}
-                projectname={"Design & Creative"}
-                title={"I will do professional figma design for website  UI UX and mobile app"}
-                rating={"4.2 ( 3 review )"}
-                lamin={lamin}
-                clientname={"Rebert Bross"}
-                price={"$20"}
-              />
-              <Servicecart
-                mobile={bannertemplate}
-                projectname={"Design & Creative"}
-                title={"I will do professional figma design for website  UI UX and mobile app"}
-                rating={"4.2 ( 3 review )"}
-                lamin={lamin}
-                clientname={"Rebert Bross"}
-                price={"$20"}
-              />
-              <Servicecart
-                mobile={greengraden}
-                projectname={"Design & Creative"}
-                title={"I will do professional figma design for website  UI UX and mobile app"}
-                rating={"4.2 ( 3 review )"}
-                lamin={lamin}
-                clientname={"Rebert Bross"}
-                price={"$20"}
-              />
-              <Servicecart
-                mobile={mobileuiux}
-                projectname={"Design & Creative"}
-                title={"I will do professional figma design for website  UI UX and mobile app"}
-                rating={"4.2 ( 3 review )"}
-                lamin={lamin}
-                clientname={"Rebert Bross"}
-                price={"$20"}
-              />
-
+              </Link>
             </div>
           </Container>
 
