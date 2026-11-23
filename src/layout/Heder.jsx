@@ -16,8 +16,8 @@ const Heder = () => {
                         <div className="">
                             <ul className='flex gap-x-5'>
                                 <li className='hover:font-semibold'><Link href={"/"}>Home</Link></li>
-                                <li className='hover:font-semibold'><Link href={"/jobs"}>Jobs</Link></li>
-                                <li className='hover:font-semibold'><Link href={"/talents"}>Talents</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/#Jobs"}>Jobs</Link></li>
+                                <li className='hover:font-semibold'><Link href={"/#Talents"}>Talents</Link></li>
                                 <li className='hover:font-semibold'><Link href={"/"}>Subscriptions</Link></li>
                                 <li className='hover:font-semibold'><Link href={"/"}>Pages</Link></li>
                                 <li className='hover:font-semibold'><Link href={"/"}>Contact</Link></li>

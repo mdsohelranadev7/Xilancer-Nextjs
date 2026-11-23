@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import images from "/public/images.png"
 import Container from "@/components/Container";
+import Jobs from "@/app/Jobs/page.jsx"
+import Talents from "@/app/Talents/page.jsx"
+
 
 
 export default function Home() {
@@ -19,9 +22,9 @@ export default function Home() {
                 <button className="px-6 py-4 bg-primary rounded-2xl  text-white border border-primary hover:bg-green-900 cursor-pointer font-medium">Find talent</button>
               </div>
 
-              <div className="">
-                <input className="border py-4 pl-4 rounded-2xl border-bordercolor  outline-none w-150 h-14 " type="text" />
-                
+              <div className="relative ">
+                <input className="border py-4 pl-4 rounded-2xl border-bordercolor  outline-none w-full h-14 " type="text" />
+                <span className="absolute top-1/2 -right-2 -translate-1/2  border">serch</span>
 
               </div>
               <ul>
@@ -34,6 +37,9 @@ export default function Home() {
           </div>
         </Container>
       </div>
+      <Jobs />
+      <Talents />
+  
 
     </>
   );
