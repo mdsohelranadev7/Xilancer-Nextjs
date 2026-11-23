@@ -21,6 +21,7 @@ export default function Home() {
 
               <div className="">
                 <input className="border py-4 pl-4 rounded-2xl border-bordercolor  outline-none w-150 h-14 " type="text" />
+                
 
               </div>
               <ul>
