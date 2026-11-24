@@ -5,6 +5,8 @@ import Container from "@/components/Container";
 import Jobs from "@/app/Jobs/page.jsx"
 import Talents from "@/app/Talents/page.jsx"
 import { FaSearch } from "react-icons/fa";
+import Jobcart from "@/components/Jobcart";
+import Finaljobcart from "@/components/Finaljobcart";
 
 
 
@@ -40,6 +42,7 @@ export default function Home() {
       </div>
       <Jobs />
       <Talents />
+     
 
 
     </>

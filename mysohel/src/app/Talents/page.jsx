@@ -8,6 +8,8 @@ import uidesign from "/public/uidesign.png"
 import business from "/public/business.png"
 import bannertemplate from "/public/bannertemplate.png"
 import greengraden from "/public/greengraden.png"
+import { TfiArrowTopRight } from 'react-icons/tfi'
+import Finaljobcart from '@/components/Finaljobcart'
 
 const page = () => {
   return (
@@ -102,13 +104,21 @@ const page = () => {
                   price={"$20"}
                 />
               </Link>
+
+            </div>
+
+            <div className="flex justify-center items-center mt-10">
+              <button className='px-4.5 py-2.5 bg-primary hover:bg-green-900 text-white flex items-center gap-x-2 rounded-lg'>All Services <TfiArrowTopRight /> </button>
             </div>
           </Container>
 
 
 
         </div>
+      <Finaljobcart/>
       </section >
+
+
     </>
   )
 }

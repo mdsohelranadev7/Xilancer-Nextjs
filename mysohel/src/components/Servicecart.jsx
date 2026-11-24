@@ -9,7 +9,7 @@ const Servicecart = ({ projectname, title, rating, clientname, price, mobile, la
         <div>
             <Container>
                 <div className="p-4 border border-bordercolor w-106 h-114 rounded-2xl bg-white">
-                    <Image src={mobile} width={392} height={224} alt={"image"} />
+                    <Image className='hover:scale-105 duration-300' src={mobile} width={392} height={224} alt={"image"} />
                     <h2 className='text-[#414E62] py-3'>{projectname}</h2>
                     <h2 className='text-[20px] font-medium'>{title}</h2>
                     <h4 className='py-3 flex items-center  gap-x-2  border-b border-bordercolor'> <IoIosStar />{rating}</h4>
