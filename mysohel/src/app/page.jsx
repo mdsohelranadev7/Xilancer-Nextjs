@@ -7,6 +7,8 @@ import Talents from "@/app/Talents/page.jsx"
 import { FaSearch } from "react-icons/fa";
 import Jobcart from "@/components/Jobcart";
 import Finaljobcart from "@/components/Finaljobcart";
+import Besthire from "@/components/Besthire";
+import Freelancer from "@/components/Freelancer";
 
 
 
@@ -42,7 +44,13 @@ export default function Home() {
       </div>
       <Jobs />
       <Talents />
-     
+      <Besthire />
+      <Freelancer />
+
+
+
+
+
 
 
     </>

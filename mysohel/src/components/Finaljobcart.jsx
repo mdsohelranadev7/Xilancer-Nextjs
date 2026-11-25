@@ -13,7 +13,6 @@ const Finaljobcart = () => {
 
     ]
     return (
-
         <>
             <Container>
                 <div className="my-30">
