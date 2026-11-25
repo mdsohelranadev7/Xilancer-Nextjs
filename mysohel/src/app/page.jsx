@@ -9,6 +9,8 @@ import Jobcart from "@/components/Jobcart";
 import Finaljobcart from "@/components/Finaljobcart";
 import Besthire from "@/components/Besthire";
 import Freelancer from "@/components/Freelancer";
+import Freelancerlist from "@/components/Freelancerlist";
+import Mobilbanner from "@/components/Mobilbanner";
 
 
 
@@ -46,6 +48,8 @@ export default function Home() {
       <Talents />
       <Besthire />
       <Freelancer />
+      <Mobilbanner /> 
+
 
 
 
